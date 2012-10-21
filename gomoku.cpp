@@ -12,9 +12,9 @@ int sw;
 
 typedef short elem
 
-int AITurn(elem *board);              //return 0 means game continued.
-                                       //1 for AI win. -1 for Usr win.
-void UsrTurn(elem *board);
+int AITurn(elem *board, int ml, int mc);        //return 0 means game continued.
+                                                //1 for AI win. -1 for Usr win.
+void UsrTurn(elem *board, int *ml, int *mc);
 
 int IndexOf(int line, int col);
 
@@ -22,7 +22,8 @@ void PrintBoard(elem *board);
 
 int main(int ac, char **av){
 	elem *board = 0;
-	printf("This is a Gomoku game. The board is %dX%d.\n", SIZE, SIZE);
+	int mid_l, mid_c;
+	printf("This is a Gomoku game. The board is of size :%dX%d.\n", SIZE, SIZE);
 	if(ac == 1){
 		printf("Choose your color [b,w]:\n");
 		scanf("%c",&sw);
@@ -37,11 +38,11 @@ int main(int ac, char **av){
 		sw = tolower(sw);
 	}
 	board = (elem*)calloc(sizeof(elem),SIZE*SIZE);
-	if(sw == 'b' || sw == 'B')
-		UsrTurn(board);
-	while((sw = AITurn(board)) == 0){
+	if(sw == 'b')
+		UsrTurn(board, &mid_l, &mid_c);
+	while((sw = AITurn(board,mid_l,mid_c)) == 0){
 		PrintBoard(board);
-		UsrTurn(board);
+		UsrTurn(board, &mid_l, &mid_c);
 	}
 	switch(sw){
 		case 1:
@@ -55,11 +56,11 @@ int main(int ac, char **av){
 	return 0;
 }
 
-int AITurn(elem *board){
+int AITurn(elem *board, int ml, int mc){
 	
 }
 
-void UsrTurn(elem *board){
+void UsrTurn(elem *board, int *ml, int *mc){
 	int c,l;
 	int flag = 0;
 	printf("Move?[Line,Column]\n");
