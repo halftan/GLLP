@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/gomokub.png</file>
+        <file>res/blackp.png</file>
+        <file>res/whitep.png</file>
+    </qresource>
+</RCC>
