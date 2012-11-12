@@ -1,5 +1,5 @@
 #mainframe{
-    width:765px;
+    width:865px;
     height:565px;
     margin-left:auto;
     margin-right:auto;
@@ -7,23 +7,22 @@
 #board{
     width:565px;
     height:565px;
-    background-image:url("./res/gomokub.png");
-    margin-left:auto;
-    margin-right:auto;
     float:left;
 }
 #leftside{
     width:200px;
     height:565px;
-    margin-left:565px;
-    margin-right:auto;
+    margin-top:20px;
+    float:left;
 }
-#names{
-    width:200px;
-    height:300px;
-    margin-top:0px;
-    margin-bottom:auto;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
+.piece{
+    position:relative;
+    top:18px;
+    left:23px;
+    width:35px;
+    height:35px;
+    float:left;
+}
+[active]{
+    background-image:url(./res/active.png);
 }
