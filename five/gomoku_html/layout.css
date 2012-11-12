@@ -26,3 +26,8 @@
 [active]{
     background-image:url(./res/active.png);
 }
+body{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
