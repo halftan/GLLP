@@ -1,0 +1,9 @@
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\bin\Debug\gomoku.exe.config
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\bin\Debug\gomoku.exe
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\bin\Debug\gomoku.pdb
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Debug\gomoku.csprojResolveAssemblyReference.cache
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Debug\gomoku.MainForm.resources
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Debug\gomoku.Properties.Resources.resources
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Debug\gomoku.csproj.GenerateResource.Cache
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Debug\gomoku.exe
+c:\users\halftan\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Debug\gomoku.pdb

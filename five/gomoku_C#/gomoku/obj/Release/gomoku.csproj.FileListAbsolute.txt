@@ -1,0 +1,8 @@
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\bin\Release\gomoku.exe.config
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\bin\Release\gomoku.exe
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\bin\Release\gomoku.pdb
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Release\gomoku.MainForm.resources
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Release\gomoku.Properties.Resources.resources
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Release\gomoku.csproj.GenerateResource.Cache
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Release\gomoku.exe
+C:\Users\HalFtaN\documents\visual studio 2012\Projects\gomoku\gomoku\obj\Release\gomoku.pdb
