@@ -137,6 +137,7 @@ window.onload = function(){
     dv.setAttribute("onmouseout", "mouseOut(this.id)");
     dv.id = "0";
     board.appendChild(dv);
+    bdmap[0] = BLANK;
     for(var i = 1; i < 225; ++i){
         if(i % 15 == 0){
             var t = document.createElement("div");
