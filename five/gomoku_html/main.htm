@@ -13,15 +13,22 @@
                 <h3 name="p1" class="label" id="p1_name">Player 1</h3>
                 <input type="text" name="p1" class="box" id="p1_edit"
                 title="Player1" value="Player 1"
-                onChange="nameChanged(this.value, 1)"/>
+                onkeyup="nameChanged(this.value, 1)"/>
                 <img src="./res/blackp.png" width=35px height=35px />
                 <br/>
                 <h3 name="p2" class="label" id="p2_name">Player 2</h3>
                 <input type="text" name="p2" class="box" id="p2_edit"
                 title="Player2" value="Player 2"
-                onChange="nameChanged(this.value, 2)"/>
+                onkeyup="nameChanged(this.value, 2)"/>
                 <img src="./res/whitep.png" width=35px height=35px />
                 <h2 id="notice"></h2>
+                <div id="history" style="width:200px;float:left;text-align:center">
+                    <button id="history_load" onClick="history_load()">Load History</button>
+                    <button id="history_save" onClick="history_save()">Save History</button>
+                    <br/>
+                	<button id="history_back" onClick="history_back()"> << </button>
+                    <button id="history_forward" onClick="history_forward()"> >> </button>
+                </div>
             </div>
         </div>
     </body>

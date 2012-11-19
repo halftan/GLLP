@@ -4,6 +4,9 @@ var WHITE = 2;
 var _isEnabled = true;
 var _whosTurn = BLACK;
 var bdmap = new Array(225);
+var history_vector = [];
+
+var history_current_step = undefined;
 
 function nameChanged(v, index){
     var label;
@@ -12,6 +15,31 @@ function nameChanged(v, index){
     else
         label = document.getElementById("p2_name");
     label.innerHTML = v;
+}
+
+function history_load(){
+		
+}
+
+function history_save(){
+	if(_isEnabled){
+		alert("Not ended!");
+		return;
+	}
+	localStorage.setItem("History", history_vector);
+}
+
+
+function history_back(){
+	if(history_current_step == undefined || history_current_step == 0)
+		return;
+	
+}
+
+function history_forward(){
+	if(history_current_step == undefined)
+		return;
+	
 }
 
 function hasFive(loc, patt){
@@ -84,6 +112,7 @@ function setPiece(id){
             document.getElementById("p2_name").innerHTML;
             return;
     }
+	history_vector.push([id,_whosTurn]);
     _whosTurn = 3 - _whosTurn;
 }
 
